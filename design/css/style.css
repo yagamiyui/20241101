@@ -60,6 +60,7 @@ footer {
 form {
   /* グレーのエリアの全体幅 */
   width: 1000px;
+  max-width: 100%;
   /* 左右余白 = (項目<250px>＋ 入力欄<500px>) / 2 */
   padding: 80px 125px;
   margin: auto;
@@ -93,6 +94,7 @@ form {
 /* 入力欄（１行） */
 input {
   width: 400px;
+  max-width: 100%;
   padding: 8px;
   border: none;
   font-size: 16px;
@@ -101,6 +103,7 @@ input {
 /* 入力欄（複数行） */
 textarea {
   width: 500px;
+  max-width: 100%;
   min-height: 300px;
   padding: 8px;
   border: none;
@@ -144,6 +147,7 @@ button {
 /* 入力済みエリア */
 .form-entered{
     width: 500px;
+  max-width: 100%;
 }
 /* ボタン(確認ページ) */
 #confirm .btn-area{
